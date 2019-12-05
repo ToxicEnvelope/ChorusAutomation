@@ -15,7 +15,7 @@ class BaseTest(unittest.TestCase, metaclass=abc.ABCMeta):
     def setUp(self):
         self.logger.info(f'Invoking `setUp`...')
         try:
-            chrome_driver = str.format('{0}/78/chromedriver.exe', GlobalConfig.get_bin_dir())
+            chrome_driver = f"{GlobalConfig.get_bin_dir()}/78/chromedriver.exe"
             self.driver = webdriver.Chrome(chrome_driver)
             self.driver.get(self.URL)
             self.driver.maximize_window()
