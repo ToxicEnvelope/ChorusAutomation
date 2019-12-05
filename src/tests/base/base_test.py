@@ -2,8 +2,9 @@ import unittest
 from selenium import webdriver
 from src.core.utils import GlobalConfig
 from src.core.utils.logger import Logger
+import abc
 
-class BaseTest(unittest.TestCase):
+class BaseTest(unittest.TestCase, metaclass=abc.ABCMeta):
     logger = Logger(__name__)
 
     # variables -- driver, URL, etc...
