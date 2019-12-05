@@ -8,11 +8,11 @@ class Logger:
     def __init__(self, namespace):
         self._ = namespace
         logging.basicConfig(format=f'{GlobalConfig.get_logger_format()}',
-                            filemode='w',
+                            filemode=u'w',
                             filename=f'{GlobalConfig.get_logs_dir()}/runtime-{GlobalConfig.timestamp()}.log',
                             level=logging.DEBUG)
         self._logger = logging.getLogger(self._)
-        coloredlogs.install(level='DEBUG', logger=self._logger)
+        coloredlogs.install(level=u'DEBUG', logger=self._logger)
 
     # info level log
     def info(self, msg):

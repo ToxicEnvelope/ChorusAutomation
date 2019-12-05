@@ -10,7 +10,7 @@ import abc
 
 class BasePage(metaclass=abc.ABCMeta):
     logger = Logger(__name__)
-    BASE_URL = "https://www.chorus.ai"
+    BASE_URL = u"https://www.chorus.ai"
     facet = LeftFacetLocators
     _driver: WebDriver
 

@@ -4,6 +4,8 @@ from time import time
 root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 class GlobalConfig:
+    def get_root_dir():
+        return root_dir
     def get_bin_dir():
         return os.path.join(root_dir, r'bin')
     def get_logs_dir():
@@ -14,8 +16,9 @@ class GlobalConfig:
         return time().__str__()[:10]
 
 if __name__ == '__main__':
-    print('->', GlobalConfig.get_bin_dir())
-    print('->', GlobalConfig.get_logs_dir())
-    print('->', GlobalConfig.get_logs_dir())
-    print('->', GlobalConfig.get_logger_format())
-    print('->', GlobalConfig.timestamp())
+    print('->', GlobalConfig.get_root_dir())
+    # print('->', GlobalConfig.get_bin_dir())
+    # print('->', GlobalConfig.get_logs_dir())
+    # print('->', GlobalConfig.get_logs_dir())
+    # print('->', GlobalConfig.get_logger_format())
+    # print('->', GlobalConfig.timestamp())
