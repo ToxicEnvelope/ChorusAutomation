@@ -1,0 +1,9 @@
+2019-12-05 12:06:16,960 - INFO - Invoking `setUp`...
+2019-12-05 12:06:17,500 - DEBUG - POST http://127.0.0.1:64723/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2019-12-05 12:06:17,500 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:64723
+2019-12-05 12:06:22,053 - DEBUG - http://127.0.0.1:64723 "POST /session HTTP/1.1" 200 681
+2019-12-05 12:06:22,055 - DEBUG - Finished Request
+2019-12-05 12:06:22,055 - DEBUG - POST http://127.0.0.1:64723/session/352e46de99a67c4d350a31f6c624a621/url {"url": "https://chorus.ai"}
+2019-12-05 12:06:45,974 - DEBUG - http://127.0.0.1:64723 "POST /session/352e46de99a67c4d350a31f6c624a621/url HTTP/1.1" 200 14
+2019-12-05 12:06:45,974 - DEBUG - Finished Request
+2019-12-05 12:06:45,974 - DEBUG - POST http://127.0.0.1:64723/session/352e46de99a67c4d350a31f6c624a621/window/maximize {}

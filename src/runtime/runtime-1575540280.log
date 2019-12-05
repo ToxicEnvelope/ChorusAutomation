@@ -1,0 +1,88 @@
+2019-12-05 12:04:40,903 - INFO - Invoking `setUp`...
+2019-12-05 12:04:41,435 - DEBUG - POST http://127.0.0.1:64356/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2019-12-05 12:04:41,436 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:64356
+2019-12-05 12:04:45,995 - DEBUG - http://127.0.0.1:64356 "POST /session HTTP/1.1" 200 681
+2019-12-05 12:04:45,997 - DEBUG - Finished Request
+2019-12-05 12:04:45,997 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/url {"url": "https://chorus.ai"}
+2019-12-05 12:04:50,318 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/url HTTP/1.1" 200 14
+2019-12-05 12:04:50,319 - DEBUG - Finished Request
+2019-12-05 12:04:50,319 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/window/maximize {}
+2019-12-05 12:04:54,502 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/window/maximize HTTP/1.1" 200 52
+2019-12-05 12:04:54,502 - DEBUG - Finished Request
+2019-12-05 12:04:54,502 - INFO - Invoking `__validate_url__` using -> https://www.chorus.ailogin?next=http:%2F%2Fchorus.ai%2Fdashboard
+2019-12-05 12:04:54,503 - DEBUG - checking url...
+2019-12-05 12:04:54,503 - DEBUG - GET http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/url {}
+2019-12-05 12:04:54,507 - DEBUG - http://127.0.0.1:64356 "GET /session/2646418c69808657a5e81a10aee8f007/url HTTP/1.1" 200 35
+2019-12-05 12:04:54,508 - DEBUG - Finished Request
+2019-12-05 12:04:54,508 - DEBUG - navigating -> https://www.chorus.ailogin?next=http:%2F%2Fchorus.ai%2Fdashboard
+2019-12-05 12:04:54,510 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/url {"url": "https://www.chorus.ailogin?next=http:%2F%2Fchorus.ai%2Fdashboard"}
+2019-12-05 12:04:54,748 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/url HTTP/1.1" 200 14
+2019-12-05 12:04:54,748 - DEBUG - Finished Request
+2019-12-05 12:04:54,748 - INFO - Invoking `makeLogin` using -> ('yahav.hoffmann@chorus-auto.com', '{RkVC4mPU6S**axv')
+2019-12-05 12:04:54,748 - INFO - Invoking `wait_clear_send_keys` using -> ('css selector', "input[name='email']") : yahav.hoffmann@chorus-auto.com
+2019-12-05 12:04:54,748 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/element {"using": "css selector", "value": "input[name='email']"}
+2019-12-05 12:04:54,758 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/element HTTP/1.1" 404 1053
+2019-12-05 12:04:54,759 - DEBUG - Finished Request
+2019-12-05 12:04:55,260 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/element {"using": "css selector", "value": "input[name='email']"}
+2019-12-05 12:04:55,267 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/element HTTP/1.1" 404 1053
+2019-12-05 12:04:55,267 - DEBUG - Finished Request
+2019-12-05 12:04:55,767 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/element {"using": "css selector", "value": "input[name='email']"}
+2019-12-05 12:04:55,773 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/element HTTP/1.1" 404 1053
+2019-12-05 12:04:55,773 - DEBUG - Finished Request
+2019-12-05 12:04:56,274 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/element {"using": "css selector", "value": "input[name='email']"}
+2019-12-05 12:04:56,282 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/element HTTP/1.1" 404 1053
+2019-12-05 12:04:56,282 - DEBUG - Finished Request
+2019-12-05 12:04:56,783 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/element {"using": "css selector", "value": "input[name='email']"}
+2019-12-05 12:04:56,789 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/element HTTP/1.1" 404 1053
+2019-12-05 12:04:56,790 - DEBUG - Finished Request
+2019-12-05 12:04:57,291 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/element {"using": "css selector", "value": "input[name='email']"}
+2019-12-05 12:04:57,297 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/element HTTP/1.1" 404 1053
+2019-12-05 12:04:57,297 - DEBUG - Finished Request
+2019-12-05 12:04:57,798 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/element {"using": "css selector", "value": "input[name='email']"}
+2019-12-05 12:04:57,805 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/element HTTP/1.1" 404 1053
+2019-12-05 12:04:57,805 - DEBUG - Finished Request
+2019-12-05 12:04:58,305 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/element {"using": "css selector", "value": "input[name='email']"}
+2019-12-05 12:04:58,312 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/element HTTP/1.1" 404 1053
+2019-12-05 12:04:58,312 - DEBUG - Finished Request
+2019-12-05 12:04:58,813 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/element {"using": "css selector", "value": "input[name='email']"}
+2019-12-05 12:04:58,819 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/element HTTP/1.1" 404 1053
+2019-12-05 12:04:58,819 - DEBUG - Finished Request
+2019-12-05 12:04:59,320 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/element {"using": "css selector", "value": "input[name='email']"}
+2019-12-05 12:04:59,326 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/element HTTP/1.1" 404 1053
+2019-12-05 12:04:59,327 - DEBUG - Finished Request
+2019-12-05 12:04:59,828 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/element {"using": "css selector", "value": "input[name='email']"}
+2019-12-05 12:04:59,834 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/element HTTP/1.1" 404 1053
+2019-12-05 12:04:59,834 - DEBUG - Finished Request
+2019-12-05 12:05:00,335 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/element {"using": "css selector", "value": "input[name='email']"}
+2019-12-05 12:05:00,343 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/element HTTP/1.1" 404 1053
+2019-12-05 12:05:00,343 - DEBUG - Finished Request
+2019-12-05 12:05:00,843 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/element {"using": "css selector", "value": "input[name='email']"}
+2019-12-05 12:05:00,850 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/element HTTP/1.1" 404 1053
+2019-12-05 12:05:00,850 - DEBUG - Finished Request
+2019-12-05 12:05:01,350 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/element {"using": "css selector", "value": "input[name='email']"}
+2019-12-05 12:05:01,357 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/element HTTP/1.1" 404 1053
+2019-12-05 12:05:01,357 - DEBUG - Finished Request
+2019-12-05 12:05:01,858 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/element {"using": "css selector", "value": "input[name='email']"}
+2019-12-05 12:05:01,865 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/element HTTP/1.1" 404 1053
+2019-12-05 12:05:01,865 - DEBUG - Finished Request
+2019-12-05 12:05:02,366 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/element {"using": "css selector", "value": "input[name='email']"}
+2019-12-05 12:05:02,373 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/element HTTP/1.1" 404 1053
+2019-12-05 12:05:02,373 - DEBUG - Finished Request
+2019-12-05 12:05:02,874 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/element {"using": "css selector", "value": "input[name='email']"}
+2019-12-05 12:05:02,881 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/element HTTP/1.1" 404 1053
+2019-12-05 12:05:02,881 - DEBUG - Finished Request
+2019-12-05 12:05:03,382 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/element {"using": "css selector", "value": "input[name='email']"}
+2019-12-05 12:05:03,388 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/element HTTP/1.1" 404 1053
+2019-12-05 12:05:03,389 - DEBUG - Finished Request
+2019-12-05 12:05:03,890 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/element {"using": "css selector", "value": "input[name='email']"}
+2019-12-05 12:05:03,897 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/element HTTP/1.1" 404 1053
+2019-12-05 12:05:03,897 - DEBUG - Finished Request
+2019-12-05 12:05:04,398 - DEBUG - POST http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007/element {"using": "css selector", "value": "input[name='email']"}
+2019-12-05 12:05:04,404 - DEBUG - http://127.0.0.1:64356 "POST /session/2646418c69808657a5e81a10aee8f007/element HTTP/1.1" 404 1053
+2019-12-05 12:05:04,405 - DEBUG - Finished Request
+2019-12-05 12:05:04,906 - ERROR - Message: 
+
+2019-12-05 12:05:04,906 - INFO - Invoking `tearDown`...
+2019-12-05 12:05:04,906 - DEBUG - DELETE http://127.0.0.1:64356/session/2646418c69808657a5e81a10aee8f007 {}
+2019-12-05 12:05:04,940 - DEBUG - http://127.0.0.1:64356 "DELETE /session/2646418c69808657a5e81a10aee8f007 HTTP/1.1" 200 14
+2019-12-05 12:05:04,940 - DEBUG - Finished Request

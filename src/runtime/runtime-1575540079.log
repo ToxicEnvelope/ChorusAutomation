@@ -1,0 +1,7 @@
+2019-12-05 12:01:19,080 - INFO - Invoking `setUp`...
+2019-12-05 12:01:19,846 - DEBUG - POST http://127.0.0.1:63795/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2019-12-05 12:01:19,847 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:63795
+2019-12-05 12:01:20,449 - DEBUG - http://127.0.0.1:63795 "POST /session HTTP/1.1" 500 988
+2019-12-05 12:01:20,451 - DEBUG - Finished Request
+2019-12-05 12:01:22,465 - ERROR - Message: session not created: This version of ChromeDriver only supports Chrome version 79
+

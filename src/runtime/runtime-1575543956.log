@@ -1,0 +1,15 @@
+2019-12-05 13:05:56,679 - INFO - Invoking `setUp`...
+2019-12-05 13:05:57,220 - DEBUG - POST http://127.0.0.1:56976/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2019-12-05 13:05:57,220 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:56976
+2019-12-05 13:06:01,779 - DEBUG - http://127.0.0.1:56976 "POST /session HTTP/1.1" 200 680
+2019-12-05 13:06:01,784 - DEBUG - Finished Request
+2019-12-05 13:06:01,785 - DEBUG - POST http://127.0.0.1:56976/session/0ac0ad76efdeefd4c11298ae4dd9fa0b/url {"url": "https://chorus.ai/meeting/602925?tab=summary&call=415473F6505845088F020C86560C2762"}
+2019-12-05 13:06:04,638 - DEBUG - http://127.0.0.1:56976 "POST /session/0ac0ad76efdeefd4c11298ae4dd9fa0b/url HTTP/1.1" 200 14
+2019-12-05 13:06:04,639 - DEBUG - Finished Request
+2019-12-05 13:06:04,639 - DEBUG - POST http://127.0.0.1:56976/session/0ac0ad76efdeefd4c11298ae4dd9fa0b/window/maximize {}
+2019-12-05 13:06:08,760 - DEBUG - http://127.0.0.1:56976 "POST /session/0ac0ad76efdeefd4c11298ae4dd9fa0b/window/maximize HTTP/1.1" 200 52
+2019-12-05 13:06:08,761 - DEBUG - Finished Request
+2019-12-05 13:06:08,761 - INFO - Invoking `tearDown`...
+2019-12-05 13:06:08,761 - DEBUG - DELETE http://127.0.0.1:56976/session/0ac0ad76efdeefd4c11298ae4dd9fa0b {}
+2019-12-05 13:06:08,788 - DEBUG - http://127.0.0.1:56976 "DELETE /session/0ac0ad76efdeefd4c11298ae4dd9fa0b HTTP/1.1" 200 14
+2019-12-05 13:06:08,789 - DEBUG - Finished Request
