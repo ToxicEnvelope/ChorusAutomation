@@ -1,5 +1,5 @@
 from time import time
-from . import GlobalConfig
+from src.core.utils import GlobalConfig
 import logging, coloredlogs
 import os
 
