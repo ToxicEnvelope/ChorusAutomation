@@ -1,18 +1,15 @@
-import logging, coloredlogs
 from time import time
+from . import GlobalConfig
+import logging, coloredlogs
 import os
-log_format = '%(asctime)s - %(levelname)s - %(message)s'
-my_project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
 
 class Logger:
-
     # constructor
     def __init__(self, namespace):
         self._ = namespace
-        logging.basicConfig(format=f'{log_format}',
+        logging.basicConfig(format=f'{GlobalConfig.get_logger_format()}',
                             filemode='w',
-                            filename=f'{my_project_dir}/runtime/runtime-{time().__str__()[:10]}.log'.format(),
+                            filename=f'{GlobalConfig.get_logs_dir()}/runtime-{GlobalConfig.timestamp()}.log',
                             level=logging.DEBUG)
         self._logger = logging.getLogger(self._)
         coloredlogs.install(level='DEBUG', logger=self._logger)
@@ -45,4 +42,3 @@ if __name__ == '__main__':
     l.critical('test')
     l.error('test')
     l.debug('test')
-
